@@ -82,12 +82,6 @@ log.info """
         ===========================================
          ${ANSI_GREEN}I N T E R O P   and   B C L 2 F A S T Q   P I P E L I N E${ANSI_RESET}
 
-         This pipeline takes an Illumina run output folder and runs the Illumina
-         By default, the file SampleSheet.csv from the runfolder is used in bcl2fastq, but another sample sheet file can be provided.
-         The resulting fastq files are saved under ${ANSI_GREEN}results-bcl/fastq${ANSI_RESET}.
-         The number of threads used by bcl2fastq are set to 4. If you know what you are doing,
-         you can set them using the respective parameters.
-
          Usage:
         -------------------------------------------
          --runfolder            : Illumina run folder
